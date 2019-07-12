@@ -1,0 +1,31 @@
+{
+  "name": "grapevine-graphql-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "author": "Ayema Chowdhury <ayema.chowdhury@gmail.com> (ayemacoder.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-latest-node": "^3.2.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.4.2",
+    "lodash": "^4.17.14",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "sequelize": "^5.10.0"
+  }
+}
